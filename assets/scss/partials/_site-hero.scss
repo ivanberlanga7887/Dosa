@@ -1,0 +1,104 @@
+/* Estilo general mantenido */
+// #hero-video {
+//     position: relative;
+//     width: 100%;
+//     height: 100vh;
+//     overflow: hidden;
+// }
+
+#left-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Oculto inicialmente */
+    transition: opacity 0.5s ease-in-out;
+}
+#left-content h2 {
+    text-align: center;
+}
+#video-image-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    transition: width 0.5s ease-in-out, left 0.5s ease-in-out;
+}
+#video-image-wrapper h1 {
+    position: fixed;
+    z-index: 9;
+    text-align: center;
+    top: 50%; left: 50%; transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 74px!important;
+    line-height: 74px!important;
+}
+#video-image-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#overlay-layer {
+    background: rgb(0 0 0 / 30%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#overlay-element {
+    display: none;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    color: #fff;
+    padding: 10px;
+}
+.spacer {
+    height: 100vh; /* Ajusta el valor según la altura que necesitas para el scroll */
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+        line-height: 1.2rem;
+    }
+
+    #left-content {
+        display: none; /* Ocultamos el contenido izquierdo en móviles, ya que el video no se contraerá */
+    }
+
+    #overlay-element {
+        display: block;
+    }
+    #video-image-wrapper h1 {
+        position: absolute;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #overlay-element {
+        bottom: 5px;
+        left: 5px;
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+.additional-content {
+    height: 200vh; /* Más espacio para hacer scroll y poder ver la animación */
+    padding: 20px;
+    background: #f0f0f0;
+    z-index: 0;
+}

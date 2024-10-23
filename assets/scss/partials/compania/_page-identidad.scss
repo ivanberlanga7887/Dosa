@@ -1,0 +1,114 @@
+@import "base/variables.scss";
+.page-template-page-identidad {
+    section {
+        max-width: 1920px;
+        padding: 0 2rem;
+        margin: 0 auto;
+    }
+    section.hero-section {
+        max-width: unset;
+    }
+
+
+    // -> Histoira timeline
+    section.historia {
+        .historia-wrapper {
+            overflow: hidden;
+        }
+    }
+
+
+    .vh-60 {
+        height: 70vh;
+    }
+
+    .hero-section h1 {
+        font-size: 3.646vw;
+    }
+
+    .titulo-especial {
+        font-size: 1.646vw;
+    }
+
+    p {
+        font-size: 18px !important;
+    }
+}
+
+// Seccion NUESTRA MISION
+section.nuestra-mision {
+    #carouselExampleDark {
+        padding: 0 2rem;
+        /* Menu Block */
+        .wrapper-menu {
+            align-items:stretch;
+            display: flex;
+        }
+        .carousel-indicators {
+            background: $yellow-corp;
+            position:static;
+            color: #000;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-right: 3rem;
+            justify-content: flex-start;
+            padding: 2rem 1.5rem;
+            div.menu-item {
+                text-indent: 0;
+                border:none;
+                width:unset;
+                opacity: 1;
+                height: auto;
+                background-color: transparent;
+                padding: 14px 20px;
+                align-items: center;
+                span.index {
+                    font-size: 14px;
+                }
+                .menu-item-title {
+                    margin-bottom: 0;
+                    margin-left: 10%;
+                    font-size: 1.5rem;
+                    opacity: .5;
+                    transition: ease opacity .350s;
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+                &.active .menu-item-title {
+                    font-size: 2rem;
+                    opacity: 1;
+                }
+            }
+        }
+        /* Slides Block */
+        .carousel-inner {
+            .carousel-item {
+                width: 100%;
+                .carousel-caption {
+                    position: static;
+                    text-align: left;
+                    .section-name {
+                        font-size :14px;
+                        letter-spacing: 1px;
+                        padding-bottom: .5rem;
+                        text-transform: uppercase;
+                    }
+                    h3 {
+                        font-size: 2.2rem;
+                    }
+                    p {
+                        padding:2rem 3rem
+                    }
+                }
+                .carousel-img {
+                    object-fit: cover;
+                    width: 100%;
+                    object-position: center center;
+                }
+            }
+        }
+    }
+}

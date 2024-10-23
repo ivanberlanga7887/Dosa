@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+.docker/
+.dockerignore
+
+# Sass/CSS
+*.css.map
+css/
+
+# Archivos temporales y de compilación
+*.tmp
+*.log
+*.lock
+dist/
+build/
+
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/debug.log
+
+# Archivos de IDEs
+.vscode/
+.idea/

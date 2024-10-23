@@ -1,0 +1,23 @@
+section.categorias {
+  padding: 1vh 0;
+  > h2 {
+    margin-bottom: 0;
+  }
+  .card {
+    border:none;
+    overflow: hidden;
+    background-color: transparent;
+    padding-bottom: 40px;
+    img {
+      object-position: center;
+      height: 100%;
+    }
+
+    .wrapper {
+      overflow: hidden;
+      max-height: 13rem;
+    }
+
+  }
+}
+

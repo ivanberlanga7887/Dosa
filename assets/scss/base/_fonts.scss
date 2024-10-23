@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'league_spartanregular';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'league_spartanlight';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Light.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'league_spartanextralight';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-ExtraLight.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'league_spartanmedium';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Medium.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'league_spartanbold';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Bold.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'league_spartanextrabold';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-ExtraBold.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'league_spartanblack';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Black.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'd-din_expdinexp-bold';
+    src: url('../fonts/Din/D-DINExp-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'd-din_expdinexp-italic';
+    src: url('../fonts/Din/D-DINExp-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'd-din_condensedregular';
+    src: url('../fonts/Din/D-DINCondensed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'd-dindin-italic';
+    src: url('../fonts/Din/D-DIN-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'd-dinregular';
+    src: url('../fonts/Din/D-DIN.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Archivo Narrow';
+    src: url('../fonts/Archivo_Narrow/ArchivoNarrow-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'archivo-narrow-medium';
+    src: url('../fonts/Archivo_Narrow/ArchivoNarrow-Medium.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'archivo-narrow-bold';
+    src: url('../fonts/Archivo_Narrow/ArchivoNarrow-Bold.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  
+
+
+h1,h2,h3,h4,h5,h6, #footer-nav a, #legal-nav a{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 200;
+}
+.subtitle {
+    font-family: 'd-dinregular', sans-serif;
+}
+
+// ---
+
+.title.light {
+    font-family: 'league_spartanlight', sans-serif !important;
+}
+.title.bold {
+    font-family: 'league_spartanbold', sans-serif !important;
+}
+.title.medium {
+    font-family: 'league_spartanmedium', sans-serif !important;
+}

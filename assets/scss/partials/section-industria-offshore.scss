@@ -1,0 +1,80 @@
+.section-cta {
+    &.industria-offshore {
+      position: relative;
+      min-height: 1080px;
+      background: url('/wp-content/themes/dosa/assets/img/ind-offshore-bkg.jpg') no-repeat center center;
+      background-size: cover;
+      max-width: 1920px;
+      margin: 0 auto;
+  
+  
+  
+      .container-cta {
+        h2 {
+          font-size: 3rem;
+          line-height: 3rem;
+        }
+        .overlay{
+          background: black;
+          height: 100%;
+          width: 100%;
+          z-index: 4;
+          opacity: 0.1;
+        }
+        .container-cta-inner-content {
+          left: 52%;
+          margin: 40px;
+          padding: 60px 95px 60px 60px;
+          position: absolute;
+          top: 25%;
+          z-index: 5;
+          color:#fff;
+  
+          .cta-img {
+            float: left;
+            left: -83%;
+            position: absolute;
+            top: 0;
+            width: 75%;
+          }
+  
+          &.twin {
+            margin: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index:4;
+            opacity: 0;
+            transition: all .3s ease;
+            h2, a {
+              opacity: 0;
+            }
+          }
+        }
+  
+        &.expanded {
+          .container-cta-inner-content.twin {
+            opacity: 1;
+          }
+          .cta-action {
+            visibility: hidden;
+          }
+          &.show-content {
+            .cta-img, .extra-txt {
+              opacity: 1;
+              display: block;
+            }
+        }
+      }
+  
+    }
+  
+    }
+  }
+  @media screen and (max-width:768) {
+    .section-cta.industria-offshore .container-cta .container-cta-inner-content {
+      position: relative;
+     }
+  }
+  
