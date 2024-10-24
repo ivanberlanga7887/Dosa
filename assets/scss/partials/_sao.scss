@@ -5,7 +5,8 @@
 }
 html {
     body {
-
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;   
         h2 {
             font-size: 3rem; 
             line-height: 1;
@@ -22,8 +23,9 @@ html {
             }
         }
         .big-text {
-            font-size: 16px;
+            font-size: 20px;
             line-height: 24px;
+            font-weight: 400;
         }
         a {
             cursor: pointer;
@@ -48,7 +50,9 @@ html {
             -o-transition: color 0.3s ease-in-out;
             transition: color 0.3s ease-in-out;
         }
-
+        .btn-link.white {
+            color: #fff!important;
+        }
         .btn-link img {
             margin-left: 20px;
             position: relative;

@@ -91,13 +91,13 @@ function watchPhp() {
 
 function watch() {
     browserSync.init({
-        proxy: 'http://saodosa.local',
-        port: 3005,
+        proxy: 'http://localhost:3006/',
+        port: 3006,
         ui: false,
         open: false
     });
     watchStyles();
-    //watchPhp(); // Watch PHP files for changes
+    watchPhp(); // Watch PHP files for changes
     //watchScripts();
 }
 

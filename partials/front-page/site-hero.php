@@ -17,7 +17,7 @@
 
       <div id="overlay-layer"></div>
       <video
-        src="<?php echo get_template_directory_uri(); ?>/assets/video/site-hero/site-hero-1720x720.webm"
+        src="<?php echo get_template_directory_uri(); ?>/assets/video/site-hero-1720x720.webm"
         poster="<?php echo get_template_directory_uri() ?>/assets/img/site-hero-placeholder.png"
         autoplay
         muted

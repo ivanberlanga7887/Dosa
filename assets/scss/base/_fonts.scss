@@ -1,94 +1,201 @@
-@font-face {
-    font-family: 'league_spartanregular';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-Regular.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'league_spartanlight';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-Light.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'league_spartanextralight';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-ExtraLight.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'league_spartanmedium';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-Medium.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'league_spartanbold';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-Bold.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'league_spartanextrabold';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-ExtraBold.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'league_spartanblack';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-Black.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'd-din_expdinexp-bold';
-    src: url('../fonts/Din/D-DINExp-Bold.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'd-din_expdinexp-italic';
-    src: url('../fonts/Din/D-DINExp-Italic.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'd-din_condensedregular';
-    src: url('../fonts/Din/D-DINCondensed.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'd-dindin-italic';
-    src: url('../fonts/Din/D-DIN-Italic.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'd-dinregular';
-    src: url('../fonts/Din/D-DIN.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Archivo Narrow';
-    src: url('../fonts/Archivo_Narrow/ArchivoNarrow-Regular.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'archivo-narrow-medium';
-    src: url('../fonts/Archivo_Narrow/ArchivoNarrow-Medium.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: 'archivo-narrow-bold';
-    src: url('../fonts/Archivo_Narrow/ArchivoNarrow-Bold.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-BlackItalic.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-BlackItalic.woff') format('woff');
+        font-weight: 900;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-ExtraLight.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-ExtraLight.woff') format('woff');
+        font-weight: 200;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-Black.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-Black.woff') format('woff');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-BoldItalic.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-BoldItalic.woff') format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-ExtraBold.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-ExtraBold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('BarlowCondensed-Bold.woff2') format('woff2'),
+            url('BarlowCondensed-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-ExtraBoldItalic.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-ExtraBoldItalic.woff') format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-LightItalic.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-LightItalic.woff') format('woff');
+        font-weight: 300;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-Thin.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-Thin.woff') format('woff');
+        font-weight: 100;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-Regular.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-SemiBoldItalic.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-SemiBoldItalic.woff') format('woff');
+        font-weight: 600;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-ExtraLightItalic.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-ExtraLightItalic.woff') format('woff');
+        font-weight: 200;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-ThinItalic.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-ThinItalic.woff') format('woff');
+        font-weight: 100;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-Light.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-Light.woff') format('woff');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-Italic.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-Italic.woff') format('woff');
+        font-weight: normal;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-SemiBold.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-SemiBold.woff') format('woff');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-MediumItalic.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-MediumItalic.woff') format('woff');
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Barlow Condensed';
+        src: url('../../assets/fonts/BarlowCondensed/BarlowCondensed-Medium.woff2') format('woff2'),
+            url('../../assets/fonts/BarlowCondensed/BarlowCondensed-Medium.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'League Spartan';
+        src: url('../../assets/fonts/LeagueSpartan/LeagueSpartan-Thin.woff2') format('woff2'),
+            url('../../assets/fonts/LeagueSpartan/LeagueSpartan-Thin.woff') format('woff');
+        font-weight: 100;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'League Spartan';
+        src: url('../../assets/fonts/LeagueSpartan/LeagueSpartan-Bold.woff2') format('woff2'),
+            url('../../assets/fonts/LeagueSpartan/LeagueSpartan-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'League Spartan';
+        src: url('../../assets/fonts/LeagueSpartan/LeagueSpartan-ExtraLight.woff2') format('woff2'),
+            url('../../assets/fonts/LeagueSpartan/LeagueSpartan-ExtraLight.woff') format('woff');
+        font-weight: 200;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'League Spartan';
+        src: url('../../assets/fonts/LeagueSpartan/LeagueSpartan-SemiBold.woff2') format('woff2'),
+            url('../../assets/fonts/LeagueSpartan/LeagueSpartan-SemiBold.woff') format('woff');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+    }
 
   
 
@@ -96,6 +203,9 @@
 h1,h2,h3,h4,h5,h6, #footer-nav a, #legal-nav a{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 200;
+}
+body{
+    font-family: 'League Spartan', sans-serif;
 }
 .subtitle {
     font-family: 'd-dinregular', sans-serif;

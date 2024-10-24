@@ -13,16 +13,36 @@
                 a{
                     display: block;
                     height: 100%;
-                    font-size: 15px;
+                    font-size: 18px;
                     padding-left: 1.56vw;
                     padding-right: 1.56vw;
+                    font-weight: 700!important;
                     span{
                         color: #fff;
-                        line-height: 6.5;
-                        font-size: 15px;
+                        font-size: 18px;
+                        line-height: 5.5;
+                        font-weight: 400!important;
                     }
                 }
             }
+        }
+        .dropdown-title {
+            font-size: 22px;
+            font-weight: 400; 
+            padding: 2rem;
+            padding-top: 60px;
+            position: relative;
+            width: 50%;
+            font-style: italic;
+        }
+        .dropdown-title::before {
+            content:'';
+            position:absolute;
+            width: 30px;
+            height:30px;
+            top:20px;
+            background-image: url(http://dosa.saotech.es/wp-content/uploads/2024/10/comillas.svg);
+            background-repeat:no-repeat;
         }
         #lg-white{
             display: block;

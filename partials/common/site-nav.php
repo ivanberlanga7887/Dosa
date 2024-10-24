@@ -119,23 +119,6 @@
         min-height: 274px;
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
     }
-    .dropdown-title {
-        font-weight: 700;
-        padding: 2rem;
-        padding-top:60px;
-        position: relative;
-        width: 50%;
-    }
-    .dropdown-title::before{
-        content:'';
-        color:#e92227;
-        position:absolute;
-        width: 30px;
-        height:30px;
-        top:20px;
-        background-image: url(http://dosa.saotech.es/wp-content/uploads/2024/10/comillas.svg);
-        background-repeat:no-repeat;
-    }
 
     .dropdown-menu-custom .wrapper {
         display:flex;
