@@ -20,7 +20,7 @@ docker-compose.yml
 
 # Sass/CSS
 *.css.map
-assets/scss/
+scss/
 
 # Archivos temporales y de compilación
 *.tmp
