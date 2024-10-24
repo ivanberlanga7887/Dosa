@@ -33,7 +33,7 @@ $slides = [
 ];
 ?>
 <section class="nuestra-mision py-5">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide d-flex">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide d-flex" data-bs-ride="carousel">
       <!-- menu -->
         <div class="wrapper-menu col-md-3">
             <div class="carousel-indicators rounded">
@@ -58,7 +58,7 @@ $slides = [
                                 <div class="carousel-caption d-none d-md-block">
                                     <div class="section-name">Valores</div>
                                     <h3><?= $slide['menu_item'] ?></h3>
-                                    <p><?= $slide['content'] ?></p>
+                                    <p class="big-text"><?= $slide['content'] ?></p>
                                 </div>
                             </div>
                             <div class="col-md-6">

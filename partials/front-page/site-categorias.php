@@ -1,4 +1,4 @@
-<section id="categorias" class="categorias over-lines d-flex">
+<section id="categorias" class="categorias over-lines d-flex bg-gray">
     <div class="container-site py-5">
         
             <div class="row">
@@ -11,7 +11,7 @@
                             <img class="img-zoom card-img-top object-fit-fill w-100 rounded" src="<?php //echo //get_template_directory_uri(); ?>/assets/img/proyectos-horizontal.jpg" alt="">
                         </div>
                         -->
-                        <p class="big-text mt-4 ps-4">Fundada en 1972,Dragados Offshore</strong> es especialista en la ejecución deplataformas offshore</strong> para la extracción y procesamiento depetróleo y gas natural</strong>, así como en laconstrucción de subestaciones offshore y onshore</strong>. Sucompromiso con la excelencia</strong> les ha consolidado como unreferente en la industria</strong>, ganándose laconfianza de clientes, socios y colaboradores</strong>.
+                        <p class="big-text mt-4 ps-4">Fundada en 1972, Dragados Offshore</strong> es especialista en la ejecución deplataformas offshore</strong> para la extracción y procesamiento depetróleo y gas natural</strong>, así como en laconstrucción de subestaciones offshore y onshore</strong>. Sucompromiso con la excelencia</strong> les ha consolidado como unreferente en la industria</strong>, ganándose laconfianza de clientes, socios y colaboradores</strong>.
 
                         </p>
                         <a href="#" class="btn-link text-uppercase">Ver todos
@@ -75,8 +75,4 @@
     </div>
 </section>
 
-<style>
-.categorias {
-	background: #f1f1f1;
-}
-</style>
+

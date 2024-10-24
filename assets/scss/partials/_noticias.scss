@@ -1,26 +1,32 @@
 section.noticias {
-  background: #f1f1f1;
   padding: 10vh 0;
+
   .card {
     border: none;
-  padding-bottom: 40px;
-  background: white;
+    padding-bottom: 40px;
+    background: white;
     margin-bottom: 30px;
     box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.10);
+    
     h2 {
-      font-size: 18px;
+      font-family: "League Spartan";
+      font-size: 16px;
+      font-weight: 600;   
     }
     .meta-cats {
       color: #aaa;
       margin-bottom: 10px;
     }
+    
     .card-img-top {
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
     }
+    
     .cart-txt {
       padding: 15px 30px;
     }
+    
     .btn-link {
       margin-top: 0;
       font-size: 12px;

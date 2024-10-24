@@ -7,7 +7,7 @@
 
 <?php get_header(); ?>
 
-<div class="container-site">
+
 
 	<!-- Hero Section-->
 
@@ -35,7 +35,7 @@
 
 				</div>
 				<div class="col-lg-6 col-12 position-relative d-flex align-items-center">
-					<div class="ps-5">
+					<div class="ps-5 big-text">
 						<p>Dragados Offshore adopta un enfoque proactivo hacia la sostenibilidad, integrando prácticas que minimizan el impacto ecológico a lo largo del ciclo de vida de cada proyecto. Desde la planificación y el diseño hasta la ejecución y el mantenimiento, la empresa asegura que sus proyectos sean ambientalmente responsables y sostenibles. 
 						</p>
 					</div>
@@ -57,8 +57,8 @@
 							<span class="divider-left"></span>
 						</span>
 
-						<h2 class="mb-4">Optimización de recursos y reducción de emisiones y residuos</h2>
-						<p>Para lograrlo, Dragados Offshore incorpora tecnologías innovadoras y métodos de trabajo que optimizan el uso de recursos y reducen las emisiones y residuos. Esto incluye la selección de materiales ecológicos, la mejora en la eficiencia energética y la implementación de técnicas de gestión de residuos que favorecen el reciclaje y la reutilización. 
+						<h2>Optimización de recursos y reducción de emisiones y residuos</h2>
+						<p class="big-text pt-3">Para lograrlo, Dragados Offshore incorpora tecnologías innovadoras y métodos de trabajo que optimizan el uso de recursos y reducen las emisiones y residuos. Esto incluye la selección de materiales ecológicos, la mejora en la eficiencia energética y la implementación de técnicas de gestión de residuos que favorecen el reciclaje y la reutilización. 
 						</p>
 					</div>
 				</div>
@@ -72,7 +72,7 @@
 				<div class="col-lg-6 col-12 position-relative d-flex align-items-center">
 					<div>
 						<h2 class="mb-4">Adhesión a rigurosos estándares internacionales</h2>
-						<p>Además, la empresa se adhiere a rigurosos estándares internacionales de gestión medioambiental, como ISO 14001, que guían sus prácticas y aseguran el cumplimiento de normativas ambientales. 
+						<p class="big-text">Además, la empresa se adhiere a rigurosos estándares internacionales de gestión medioambiental, como ISO 14001, que guían sus prácticas y aseguran el cumplimiento de normativas ambientales. 
 						</p>
 					</div>
 				</div>
@@ -114,7 +114,7 @@
 		</div>
 	</section>
 	<!-- //section 3-->
-</div>
+
 <style>
 
 #section-2 strong {

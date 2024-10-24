@@ -26,24 +26,94 @@
                 }
             }
         }
-        .dropdown-title {
-            font-size: 22px;
-            font-weight: 400; 
-            padding: 2rem;
-            padding-top: 60px;
-            position: relative;
-            width: 50%;
-            font-style: italic;
+        .menu-principal {
+
+            .menu-item:nth-child(2) {
+
+                .dropdown-menu-custom .wrapper {
+                background:var(--main-blue);
+                color:#fff;
+                }
+            }
+
+            .dropdown-menu-custom  {
+
+                display:none;
+                background-color:#fff;
+                padding-left:0;
+                column-gap: 1rem;
+                position:absolute;
+                width: 40rem;
+                min-height: 274px;
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
+                
+                .wrapper{
+
+                    display:flex;
+                    flex-direction:column;
+                    padding: 2rem;
+                    background: var(--main-yellow);
+                    white-space: nowrap;
+                    width:50%;
+                
+                    .menu-item {
+                        padding-bottom: 0.5rem;
+                    }
+                }
+            }
+            .dropdown-title {
+                font-size: 22px;
+                font-weight: 400; 
+                padding: 2rem;
+                padding-top: 60px;
+                position: relative;
+                width: 50%;
+                font-style: italic;
+            }
+            .dropdown-title::before {
+                content:'';
+                position:absolute;
+                width: 30px;
+                height:30px;
+                top:20px;
+                background-image: url(http://dosa.saotech.es/wp-content/uploads/2024/10/comillas.svg);
+                background-repeat:no-repeat;
+            }
+            
+            .menu-item-has-children { 
+                           
+                    a {
+                        font-weight:700!important;
+                    
+                    &:hover{
+                            color:var(--main-red);
+                        }
+                    }
+                    &::after{
+                        content:'';
+                        color:var(--main-red);
+                        position:absolute;
+                        width: 10px;
+                        height:10px;
+                        top:50px;
+                        right: 0;
+                        background-image: url(http://dosa.saotech.es/wp-content/uploads/2024/10/chevron.svg);
+                        background-repeat:no-repeat;
+                    }
+                }
+                .menu-item:hover .dropdown-menu-custom {   
+                    display: inline-flex;
+                    opacity: 1;
+                    visibility: visible;
+                }
+            
+        } 
+
+
+        .search {
+            padding-top:2.5rem;
         }
-        .dropdown-title::before {
-            content:'';
-            position:absolute;
-            width: 30px;
-            height:30px;
-            top:20px;
-            background-image: url(http://dosa.saotech.es/wp-content/uploads/2024/10/comillas.svg);
-            background-repeat:no-repeat;
-        }
+
         #lg-white{
             display: block;
         }

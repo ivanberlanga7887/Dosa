@@ -150,6 +150,90 @@
         .to(lineas, { opacity: 1}, "+=1"); 
         }
 
+            // Compañía - Instalaciones
+            if (!isMobile) {
+
+                const columns = document.querySelectorAll('.card-container');
+            
+                columns.forEach((column, index) => {
+            
+                    const cardText = column.querySelector(".card-text .text");
+                    let transitionFinished = false; // Para saber si la transición ha terminado
+            
+                    column.addEventListener('mouseenter', () => { 
+                        transitionFinished = false; // Reiniciar al hacer hover
+            
+                        // Expandir hacia la derecha o izquierda
+                        if (index % 2 === 0) {
+                            column.classList.add('expanded-right');
+                        } else {
+                            column.classList.add('expanded-left');
+                        }
+                    });
+            
+                    column.addEventListener('mouseleave', () => {
+                        // Remover todas las clases al salir del hover, pero respetar la transición
+                        column.classList.remove('expanded-right', 'expanded-left', 'expanded-end');
+                        cardText.style.display = "none";
+                    });
+            
+                    // Detectar cuando la transición de 'flex-basis' ha finalizado
+                    column.addEventListener('transitionend', (event) => {
+                        if (event.propertyName === 'flex-basis') {
+                            transitionFinished = true; // Marcar que la transición ha terminado
+            
+                            // Mostrar el texto solo si tiene las clases correctas
+                            if (column.classList.contains('expanded-left') || column.classList.contains('expanded-right')) {
+                                column.classList.add('expanded-end'); // Añadir la clase que marca el final de la expansión
+                                cardText.style.display = "block"; // Mostrar el texto
+                            } else {
+                                cardText.style.display = "none"; // Ocultar si no tiene las clases
+                            }
+                        }
+                    });
+                });
+            }
+            
+
+        /*
+        if (!isMobile) {
+            const columns = document.querySelectorAll('.card-container');
+            const container = document.querySelector(".instalaciones-cards")
+            const containerHeight = container.offsetHeight;
+
+
+
+            columns.forEach((column, index) => {
+                const originalHeight = column.offsetHeight; // Guardar la altura original
+                const cardText = column.querySelector(".card-text .text")
+                const image = column.querySelector('.card-img-top')
+        
+                column.addEventListener('mouseenter', () => {
+
+                    if (index === columns.length - 1) {
+                        column.classList.add('expanded-left');
+
+                    } else {
+                        column.classList.add('expanded-right');
+                    }
+                    //cardText.style.height = containerHeight + 'px';
+                    image.style.display ="none";
+                    cardText.style.display ="block"
+                    cardText.style.opacity ="1"
+                    //column.style.height = originalHeight + 50 + 'px'; // Ajustar altura al expandir
+                });
+        
+                column.addEventListener('mouseleave', () => {
+                    column.classList.remove('expanded-right', 'expanded-left');
+                    image.style.display ="block";
+                    cardText.style.display ="none"
+                    cardText.style.opacity ="0"
+                    //column.style.height = originalHeight + 'px'; // Restaurar altura original
+                });
+            });
+        }
+        */
+
         //Front Page Referentes
         /*
         const textBox = document.querySelector('.text-box-wrapper');

@@ -7,7 +7,7 @@
 
 <?php get_header(); ?>
 
-<div class="container-site">
+<div class="">
 
 	<!-- Hero Section-->
 
@@ -32,13 +32,13 @@
 				<h2 class="mb-4">Dragados Offshore opera en el sector de tecnología avanzada con un enfoque en la <strong>seguridad</strong> y la <strong>sostenibilidad</strong> de sus <strong>proyectos</strong>.
 				</h2>
 				<div class="col-lg-6 col-12 position-relative">
-					<div class="pt-3">
+					<div class="pt-3 big-text">
 						<p> En el sector de tecnología avanzada en el que opera Dragados Offshore, el éxito y la sostenibilidad de los proyectos se basan en principios fundamentales como la ingeniería precisa y, especialmente, en la seguridad de los equipos y el entorno. 
 						</p>
 					</div>
 				</div>
 				<div class="col-lg-6 col-12 position-relative">
-					<div class="pt-3">
+					<div class="pt-3 big-text">
 						<p>
 						La empresa está firmemente comprometida con una cultura de seguridad que busca la prevención y el ambicioso objetivo de Cero Accidentes.</p>	
 					</div>
@@ -66,7 +66,7 @@
 						</span>
 
 						<h2 class="mb-4">Cultura de responsabilidad y concienciación</h2>
-						<p>Para lograr estos objetivos, Dragados Offshore fomenta una cultura de responsabilidad y concienciación entre sus equipos. Se asegura de que cada miembro del personal reciba la formación y los recursos necesarios para identificar y prevenir riesgos, creando un entorno en el que la seguridad es una prioridad constante. 
+						<p class="big-text">Para lograr estos objetivos, Dragados Offshore fomenta una cultura de responsabilidad y concienciación entre sus equipos. Se asegura de que cada miembro del personal reciba la formación y los recursos necesarios para identificar y prevenir riesgos, creando un entorno en el que la seguridad es una prioridad constante. 
 						</p>
 					</div>
 
@@ -88,7 +88,7 @@
 						</span>
 
 						<h2 class="mb-4">Mejoras laborales, medioambientales y cumplimiento de normativas</h2>
-						<p>La filosofía de la empresa no solo se centra en mejorar continuamente las condiciones laborales y medioambientales, sino también en asegurar el cumplimiento de las normativas vigentes. Mediante su sistema integrado de gestión de Calidad, Salud, Seguridad y Medioambiente (QHSE), Dragados Offshore se adhiere a rigurosos estándares internacionales, como ISO 9001, ISO 14001, OSHAS 18001, EN 1090-1 y PED. 
+						<p class="big-text pe-5">La filosofía de la empresa no solo se centra en mejorar continuamente las condiciones laborales y medioambientales, sino también en asegurar el cumplimiento de las normativas vigentes. Mediante su sistema integrado de gestión de Calidad, Salud, Seguridad y Medioambiente (QHSE), Dragados Offshore se adhiere a rigurosos estándares internacionales, como ISO 9001, ISO 14001, OSHAS 18001, EN 1090-1 y PED. 
 						<div class="d-flex gap-2 justify-content-center align-items-center flex-nowrap">
 							<img width="40" src="http://dosa.saotech.es/wp-content/uploads/2024/10/PDF_file_icon.svg"/>
 							<a href="http://dosa.saotech.es/wp-content/uploads/2024/10/Politica_QHSE_marzo2020.pdf" class="btn-link text-uppercase" style="margin-top:0">Ver Política QHSE

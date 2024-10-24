@@ -45,6 +45,7 @@ section.nuestra-mision {
             display: flex;
         }
         .carousel-indicators {
+
             background: $yellow-corp;
             position:static;
             color: #000;
@@ -68,9 +69,11 @@ section.nuestra-mision {
                     font-size: 14px;
                 }
                 .menu-item-title {
+                    font-family: 'League Spartan', sans-serif;
+                    font-weight: 500;
                     margin-bottom: 0;
                     margin-left: 10%;
-                    font-size: 1.5rem;
+                    font-size: 1.2rem;
                     opacity: .5;
                     transition: ease opacity .350s;
                     &:hover {
@@ -100,7 +103,8 @@ section.nuestra-mision {
                         font-size: 2.2rem;
                     }
                     p {
-                        padding:2rem 3rem
+                        padding:2rem 3rem;
+                        
                     }
                 }
                 .carousel-img {

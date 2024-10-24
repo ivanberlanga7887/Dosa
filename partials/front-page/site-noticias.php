@@ -1,7 +1,7 @@
-<section class="noticias over-lines">
+<section class="noticias over-lines bg-gray">
     <div class="container-site py-5">
         <div class="row">
-            <div class="col-12  col-lg-8 mx-auto"">
+            <div class="col-12  col-lg-8 mx-auto">
                 <div class="row">
                     <div class="col-12 col-lg-4 d-lg-none">
                         <h2>Actualidad</h2>

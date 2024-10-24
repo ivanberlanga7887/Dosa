@@ -10,17 +10,18 @@ const gulp = require('gulp'),
 const rootSrc = 'assets/';
 const rootDest = 'assets/';
 
-const scssArray =  [
-    // rootSrc + 'scss/base/base.scss', // -> Uncomment Only if you need compile changes
+const scssArray = [
     rootSrc + 'scss/*.scss',
 ];
-const watchArray =  [
+const jsArray = [
+    rootSrc + 'js/*.js', 
+    '!' + rootSrc + 'js/*.min.js', // Ignorar archivos minificados para evitar el ciclo
+];
+const watchArray = [
     rootSrc + 'scss/**/*.scss',
+    rootSrc + 'js/**/*.js',
+    '!' + rootSrc + 'js/**/*.min.js', // Ignorar los minificados al observar
     'dosa/**/*.php',
-
-
-
-    // root + 'js/**/*.js',
 ];
 
 const paths = {
@@ -29,7 +30,7 @@ const paths = {
         dest: rootDest + 'css',
     },
     js: {
-        src: rootSrc + 'js/*.js',
+        src: jsArray,
         dest: rootDest + 'js',
     }
 };
@@ -45,19 +46,10 @@ function style() {
         .pipe(gulp.dest(paths.styles.dest))
         .pipe(browserSync.stream());
 }
-/*
-function js() {
-    return gulp
-        .src(paths.js.src)
-        .pipe(minify({ ext: { min: '.min.js' }, noSource: true, mangle: false, compress: false }))
-        .pipe(gulp.dest(paths.js.dest))
-        .pipe(browserSync.stream());
-}
-        */
 
 function js() {
     return gulp
-        .src(paths.js.src, { allowEmpty: true }) // Asegurarse de que src está definido
+        .src(paths.js.src, { allowEmpty: true }) // Asegúrate de que src está definido
         .pipe(minify({
             ext: {
                 src: '.js',   // Mantener el archivo original con la extensión .js
@@ -70,7 +62,6 @@ function js() {
         .pipe(gulp.dest(paths.js.dest))
         .pipe(browserSync.stream());
 }
-
 
 function reload(done) {
     browserSync.reload();
@@ -98,7 +89,7 @@ function watch() {
     });
     watchStyles();
     watchPhp(); // Watch PHP files for changes
-    //watchScripts();
+    watchScripts(); // Ahora observa los scripts
 }
 
 exports.watch = watch;

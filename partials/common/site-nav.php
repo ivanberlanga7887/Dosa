@@ -96,58 +96,7 @@
         font-size: 18px!important;
         line-height: 3!important;
     }
-    .search {
-        padding-top:2.5rem;
-    }
-    .menu-principal .menu-item:nth-child(2) .dropdown-menu-custom .wrapper {
-        background:#07509c;
-        color:#fff;
-    }
-    .menu-principal .menu-item-has-children .dropdown-menu-custom  a {
-        font-weight:500!important;
-    }
-    .menu-principal .menu-item-has-children .dropdown-menu-custom  a:hover {
-        color:var(--main-red);
-    }
-    .dropdown-menu-custom {
-        display:none;
-        background-color:#fff;
-        padding-left:0;
-        column-gap: 1rem;
-        position:absolute;
-        width: 40rem;
-        min-height: 274px;
-        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1);
-    }
 
-    .dropdown-menu-custom .wrapper {
-        display:flex;
-        flex-direction:column;
-        padding: 2rem;
-        background: #feca00;
-        white-space: nowrap;
-        width:50%;
-    }
-    .dropdown-menu-custom .wrapper .menu-item {
-        padding-bottom: 0.5rem;
-    }
 
-    /* Mostrar el dropdown cuando se hace hover sobre el elemento del menú */
-    .menu-item:hover .dropdown-menu-custom {   
-        display: inline-flex;
-        opacity: 1;
-        visibility: visible;
-    }
-    .menu-principal .menu-item-has-children:after {
-        content:'';
-        color:#e92227;
-        position:absolute;
-        width: 10px;
-        height:10px;
-        top:50px;
-        right: 0;
-        background-image: url(http://dosa.saotech.es/wp-content/uploads/2024/10/chevron.svg);
-        background-repeat:no-repeat;
-    }
 </style>
 

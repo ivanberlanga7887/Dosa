@@ -2,6 +2,7 @@
     --main-blue: #07509c;
     --main-yellow: #ffc907;
     --main-red: #e92227;
+    --main-gray:#f1f1f1;
 }
 html {
     body {
@@ -22,10 +23,19 @@ html {
                 margin: 30px auto;
             }
         }
+        .big-heading {
+            font-size: 5rem;
+            font-weight: 500;
+            color: var(--main-blue);
+            
+            span{
+                color: var(--main-red);
+            }
+        }
         .big-text {
             font-size: 20px;
             line-height: 24px;
-            font-weight: 400;
+            font-weight: 300;
         }
         a {
             cursor: pointer;
@@ -52,6 +62,9 @@ html {
         }
         .btn-link.white {
             color: #fff!important;
+        }
+        .bg-gray {
+            background: var(--main-gray);
         }
         .btn-link img {
             margin-left: 20px;
@@ -139,7 +152,7 @@ html {
                         background-color: #ff0000;
                         p,a{
                             color: #fff;
-                            font-size: 14px;
+                            font-size: 16px;
                         }
                         #footer-nav {
 
@@ -157,10 +170,11 @@ html {
                                 a{
                                     display: block;
                                     font-size: 16.6px;
-                                    padding-left: 1.56vw;
-                                    padding-right: 1.56vw;
+                                    padding-left: 1.40vw;
+                                    padding-right: 1.40vw;
                                     span{
                                         color: #fff;
+                                        font-weight: 700;
                                     }
                                 }
                             }
@@ -172,14 +186,14 @@ html {
                 
                 min-height: 60vh;
                 h1 {
-                font-size: 3.646vw;
+                font-size: 4.646vw;
+                font-weight: 400;
+                line-height: 1;
                 }
                 .titulo-especial {
+                    font-size: 1.5rem;
                     margin-top: 8rem;
                 }
-        }
-        .bg-gray {
-            background: #f1f1f1;
         }
 
     }

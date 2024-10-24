@@ -200,12 +200,13 @@
   
 
 
-h1,h2,h3,h4,h5,h6, #footer-nav a, #legal-nav a{
+h1,h2,h3,h4{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 200;
 }
-body{
+body,h5,h6{
     font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
 }
 .subtitle {
     font-family: 'd-dinregular', sans-serif;
